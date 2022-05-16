@@ -1,0 +1,45 @@
+#!/bin/sh
+
+echo "Atualizando os Plugins do Vim"
+
+rm -rf ~/.vim/plugged
+
+git clone https://github.com/cohama/agit.vim.git ~/.vim/plugged/agit
+
+git clone https://github.com/dense-analysis/ale.git ~/.vim/plugged/ale
+
+git clone https://github.com/jiangmiao/auto-pairs.git ~/.vim/plugged/auto-pairs
+
+git clone https://github.com/rafi/awesome-vim-colorschemes.git ~/.vim/plugged/awesome-vim-colorschemes
+
+git clone https://github.com/lilydjwg/colorizer.git ~/.vim/plugged/colorizer
+
+git clone https://github.com/iloginow/vim-stylus.git ~/.vim/plugged/vim-stylus
+
+git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/plugged/ctrlp
+
+git clone https://github.com/mattn/emmet-vim.git ~/.vim/plugged/emmet-vim
+
+git clone https://github.com/Yggdroot/indentLine.git ~/.vim/plugged/indentLine
+
+git clone https://github.com/preservim/nerdcommenter.git ~/.vim/plugged/nerdcommenter
+
+git clone https://github.com/preservim/nerdtree.git ~/.vim/plugged/nerdtree
+
+git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git ~/.vim/plugged/nerdtree-git-plugin
+
+git clone https://github.com/vim-airline/vim-airline.git ~/.vim/plugged/vim-airline
+
+git clone https://github.com/vim-airline/vim-airline-themes.git ~/.vim/plugged/vim-airline-themes
+
+git clone https://github.com/alvan/vim-closetag.git ~/.vim/plugged/vim-closetag
+
+git clone https://github.com/tomasiser/vim-code-dark.git ~/.vim/plugged/vim-code-dark
+
+git clone https://github.com/flazz/vim-colorschemes.git ~/.vim/plugged/vim-colorschemes
+
+git clone https://github.com/ryanoasis/vim-devicons.git ~/.vim/plugged/vim-devicons
+
+git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/plugged/vim-polyglot
+
+echo "Atualização concluida"
